@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",                    // Use newer JavaScript features
+      "lib": ["ES2020", "DOM"],              // Include modern features and browser DOM
+      "module": "ESNext",                    // Use modern modules
+      "moduleResolution": "node",            // Find modules like Node.js does
+      "strict": true,                        // Enable strict type checking for YOUR code
+      "esModuleInterop": true,               // Allow importing CommonJS modules
+      "skipLibCheck": true,                  // Skip checking library files (this fixes your errors!)
+      "forceConsistentCasingInFileNames": true,
+      "allowSyntheticDefaultImports": true   // Better import handling
+    },
+    "include": ["*.ts", "src/**/*.ts"],      // Include all TypeScript files
+    "exclude": ["node_modules"]             // Don't check node_modules
+  }
